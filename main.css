@@ -1,0 +1,90 @@
+body {
+    background: url(sky.jpg) center center fixed no-repeat;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+    font-family: 'Raleway', sans-serif;
+        color: rgba(36, 40, 61, 0.94);
+
+}
+
+.jumbotron {
+    background-color: transparent;
+    padding-top: 10%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    color: rgba(36, 40, 61, 0.94);
+}
+
+.jumbotron h1 {   
+    text-shadow: 1px 1px 1px white, -1px -1px #333;
+}
+
+.glass {
+    border-bottom: 1px solid;
+    border-bottom-color: #ccc;
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    height: 90%;
+}
+
+.glass .social li{
+    text-shadow: 1px 1px 1px white, -1px -1px #333;
+    color: rgba(36, 40, 61, 0.94);
+    padding: 3%;
+    display: inline-block;
+    font-size: 300%;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 4%;
+}
+
+.social li a {
+    color: rgba(36, 40, 61, 0.94);
+    text-decoration: none;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container p {
+    margin-top: 3%;
+    padding: 2%;
+    font-size: 150%;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    clear: both;
+}
+
+ .imagebox {
+    padding: 4%;
+}
+
+.imagebox img {
+    
+    padding-left: 10%;
+}
+
+.clear {
+    clear: both;
+}
+
+.portfolio {
+    margin-top: 10%;
+}
+
+.contact {
+    margin-top: 10%;
+}
+
+.foot {
+    font-size: 70%;
+    text-align: center;
+}
+
+footer {
+    margin-top: 3%;
+}

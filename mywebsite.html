@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Stratosphere</title>
+    
+  <!--Boostrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!--Style links-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+  <!--Navbar coding starts here-->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation"> 
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand" href="#"><img src="cloud-icon.png" width= "25px"></span>
+                <span class="navbar-brand" href="stratmsn.github.io">Stratosphere</span>
+                
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://stratmsn.github.io">Home</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+          </div>
+      </div>
+    
+  <!--Home Landing Page starts here-->
+    <div class="glass jumbotron">
+        <h1>Stratosphere</h1>
+        <h2>Adventures in the Clouds</h2>
+        <h3>By Stephanie Stratmoen</h3>
+        <div class="social">
+            <ul>
+                <li><a href="https://www.facebook.com/stephanie.stratmoen"><span class="fa fa-lg fa-facebook"></span></a></li>
+                <li><a href="https://www.pinterest.com/sstratmoen"><span class="fa fa-lg fa-pinterest"></span></a></li>
+                <li><a href="https://plus.google.com/u/0/106724621944838038072/posts"><span class="fa fa-lg fa-google-plus"></span></a></li>
+                <li><a href="https://www.dropbox.com/sh/z3yw2u7o6ih83dh/AAB5cP-5FFlnbysDdtUnbYbRa?dl=0"><span class="fa fa-lg fa-dropbox"></span></a></li>
+            </ul>
+        </div>
+    </div>
+    
+  <!--About section begins here-->
+    <section class="container glass clearfix">
+        <h1>Meet Stephanie</h1>
+        <div class="col-sm-6">
+            <img src="biophoto.jpg" alt="portrait" width="480px">
+        </div>
+        <div class="col-sm-6">
+            <p>Stephanie is a working mom of two children, Jack and Delilah. She is from Columbus, Ohio, but currently resides in Fort Wayne, Indiana. She works as a retail manager, and enjoys encorporating artistic endeavors into her day-to-day. Stephanie is entirely self-taught and passionate about learning development and design, currently focused on mastering HTML/CSS and soon moving into JS. She loves solving puzzles and challenging herself to reach new heights!</p>
+        </div>
+        <div class="col-sm-6 imagebox clear">
+            <img src="Delilah.jpg" alt= "girl baby" width="400px">
+        </div>
+        <div class="col-sm-6 imagebox">
+            <img src="happyjack.jpg" alt="boy playing" width="400px">
+            
+        </div>
+        
+        
+    </section>
+  
+  <!-- Project section begins here-->
+    <div id="projects"></div>
+    <section class ="container glass portfolio">
+        <h1>Portfolio of Projects</h1>
+        <h2>Websites</h2>
+        <div class="row">
+            <figure class="col-sm-6">
+                <p>An Artist's Online Portfolio</p>
+                <img src="cassiessitepic.png" width="480px">
+            </figure>
+            <figure class="col-sm-6">
+                <p>A Product Page</p>
+                <img src="wipsign.png" width="480px">
+            </figure>
+        </div>
+    </section>
+    
+  <!--Contact section starts here-->
+    <div id="contact"></div>
+    
+    <section class="container glass contact">
+        <h1>Get in Touch...</h1>
+        <form role="form">
+            <div class="form-group">
+                <label for="name" class="control-label">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email" class="control-label">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="example@email.com" required>
+            </div>
+            <div class="form-group">
+                <label for="tel" class="control-label">Telephone:</label>
+                <input type="tel" class="form-control" id="tel" placeholder="(555)555-555">
+                <label class="checkbox-inline">Texts OK?</label>
+                <input type="checkbox" id="sms" value="">
+            </div>
+            <div class="form-group">
+                <label for="message" class="control-label">Your Message:</label>
+                <textarea class="form-control" rows="10"></textarea>
+            </div>
+            <div class="form-group"> 
+		        <button type="submit" class="btn btn-primary">Submit</button>
+	       </div>
+        </form>
+    </section>
+    
+  <!--Footer section starts here-->
+    <footer class="glass foot">
+        <div class="container">
+            <div class= "col-sm-3">
+            <p> &copy 2016 Stephanie Stratmoen</p>
+            </div>
+            
+        </div>
+    </footer>
+    
+  <!--Scripts start here-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+</html>
