@@ -10,7 +10,7 @@ body {
 
 .jumbotron {
     background-color: transparent;
-    padding-top: 10%;
+    padding-top: 15%;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     height: 100%;
@@ -72,11 +72,7 @@ body {
     clear: both;
 }
 
-.portfolio {
-    margin-top: 10%;
-}
-
-.contact {
+.portfolio, .contact {
     margin-top: 10%;
 }
 
