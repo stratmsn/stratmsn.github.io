@@ -1,11 +1,10 @@
 body {
     background: url(sky.jpg) center center fixed no-repeat;
     -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     font-family: 'Raleway', sans-serif;
-        color: rgba(36, 40, 61, 0.94);
-
+    color: rgba(36, 40, 61, 0.94);
 }
 
 .jumbotron {
@@ -17,7 +16,7 @@ body {
     color: rgba(36, 40, 61, 0.94);
 }
 
-.jumbotron h1 {   
+.jumbotron h1 {
     text-shadow: 1px 1px 1px white, -1px -1px #333;
 }
 
@@ -30,7 +29,7 @@ body {
     height: 90%;
 }
 
-.glass .social li{
+.glass .social li {
     text-shadow: 1px 1px 1px white, -1px -1px #333;
     color: rgba(36, 40, 61, 0.94);
     padding: 3%;
@@ -59,12 +58,11 @@ body {
     clear: both;
 }
 
- .imagebox {
+.imagebox {
     padding: 4%;
 }
 
 .imagebox img {
-    
     padding-left: 10%;
 }
 
@@ -72,8 +70,10 @@ body {
     clear: both;
 }
 
-.portfolio, .contact {
+.portfolio,
+.contact {
     margin-top: 10%;
+    padding-bottom: 1%;
 }
 
 .foot {
